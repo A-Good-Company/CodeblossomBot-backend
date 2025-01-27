@@ -7,7 +7,7 @@ This application is set up to be deployed on Google Cloud App Engine. To deploy:
 1. Make sure you have the Google Cloud SDK installed and configured.
 2. Run:
    ```
-   gcloud app deploy
+   gcloud functions deploy munkchat --runtime python39 --trigger-http --allow-unauthenticated --source ./src
    ```
 
 ## License
